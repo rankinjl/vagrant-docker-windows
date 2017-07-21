@@ -1,5 +1,6 @@
 # vagrant-docker-windows
-Set up an Apache web server inside a Docker container using Vagrant on windows. This will use VirtualBox to create an automatic host machine to host all Docker containers
+Set up an Apache web server inside a Docker container using Vagrant on windows. 
+This will use VirtualBox to create an automatic host machine to host all Docker containers
 Edited by Jessica Rankins on 6/15/2017
 
 GOALS:
