@@ -14,9 +14,6 @@ PREREQUISITES: ON WINDOWS HOST COMPUTER, HAD TO:
 - Install Git for Windows (version 2.12.2.windows.1)
 - Install Vagrant (version 1.9.4)
 - Install DockerToolbox with Kitematic (version 17.04.0-ce)
-- (Possibly) Download cwRsync, extract, run cwrsync command script,
-		and add 'C:\....\bin\' to PATH system variables under environment
-		variable in advanced settings (version 3.1.2)
 - On vagrant up kept getting error:
 
 		
@@ -36,7 +33,6 @@ PREREQUISITES: ON WINDOWS HOST COMPUTER, HAD TO:
 		which said to run the following command before using docker in
 		the command line after a fresh restart/start up of the computer:
 		```@FOR /f "tokens=*" %i IN ('docker-machine env default') DO @%i```
-		
 - Got the following error (fixed when disabled synced folders - use Docker volumes instead)
 
 		Stderr: C:\Program Files\Docker Toolbox/docker.EXE: 
